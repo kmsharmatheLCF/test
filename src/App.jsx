@@ -1,10 +1,11 @@
 import React from 'react'
+import SnakeGame from './components/SnakeGame'
 
 const App = () => {
   return (
-    <div>
-      <p>  hey i am nishant </p>
-    </div>
+ <>
+ <SnakeGame />
+ </>
   )
 }
 
