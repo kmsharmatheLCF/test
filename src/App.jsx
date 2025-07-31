@@ -1,10 +1,10 @@
 import React from 'react'
-import SnakeGame from './components/SnakeGame'
+
 
 const App = () => {
   return (
  <>
- <SnakeGame />
+<p> krishna murari sharma</p>
  </>
   )
 }
