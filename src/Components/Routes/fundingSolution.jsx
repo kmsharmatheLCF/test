@@ -1,10 +1,12 @@
 import "./fundingSolution.css";
+import fsol from "../../assets/fundingSolution.jpeg";
+import lprocess from "../../assets/loanProcess.jpeg";
 const FundingSolution = () => {
   return (
     <>
       <div className="fundingSectionOne">
         <div className="fundingOneMedia">
-          <img src="../../media/fundingSolution.jpeg" alt="Image" />
+          <img src={fsol}alt="Image" />
         </div>
         <div className="fundingOneContent">
           <h3>Funding Solutions Built for Your Business</h3>
@@ -55,7 +57,7 @@ const FundingSolution = () => {
           </div>
         </div>
         <div className="fundingTwoMedia">
-          <img src="../../media/loanProcess.jpeg" alt="" />
+          <img src={lprocess} alt="" />
         </div>
       </div>
 

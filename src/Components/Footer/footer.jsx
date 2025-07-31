@@ -2,11 +2,12 @@ import { Link } from "react-router-dom";
 import { ScrollRestoration } from "react-router-dom";
 <ScrollRestoration getKey={(location, matches) => location.pathname} />;
 import "./footer.css";
+import flogo from "../../assets/UathLogoFooter.png";
 const Footer = () => {
   return (
     <div className="footer">
       <div className="footerLogo">
-        <img src="../media/UathLogoFooter.png" alt="Footer Logo" />
+        <img src={flogo} alt="Footer Logo" />
       </div>
       <div className="footerContent">
         <div className="footerInfo">

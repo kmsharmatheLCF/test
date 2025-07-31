@@ -1,10 +1,11 @@
 import "./aboutUs.css";
+import about from "../../assets/about.jpg";
 const AboutUs = () => {
   return (
     <>
       <div className="fundingSectionOne">
         <div className="fundingOneMedia width40">
-          <img src="../../media/about.jpg" alt="Image" className="padding10" />
+          <img src={about} alt="Image" className="padding10" />
         </div>
         <div className="fundingOneContent width60">
           <h3>About Us</h3>

@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
+import logo from "../../assets/UathLogo.png";
 import "./navbar.css";
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -7,7 +8,7 @@ const Navbar = () => {
     <div className="navbar-wrapper">
       <div className="navbarLogo">
         <Link to="/">
-          <img src="../media/UathLogo.png" alt="UATH_Logo" />
+          <img src={logo} alt="UATH_Logo" />
         </Link>
       </div>
       <div className={`navbarOptions ${menuOpen ? "show" : ""}`}>

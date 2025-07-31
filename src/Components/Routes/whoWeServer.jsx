@@ -1,9 +1,18 @@
+import client from "../../assets/client.jpeg";
+import client1 from "../../assets/client1.jpeg";
+import client2 from "../../assets/client2.jpeg";
+import client3 from "../../assets/client3.jpeg";
+import client4 from "../../assets/client4.jpeg";
+import client5 from "../../assets/client5.jpeg";
+import client6 from "../../assets/client6.jpeg";
+import client7 from "../../assets/client7.jpeg";
+import clent8 from "../../assets/buisness2.jpeg";
 const WhoWeServe = () => {
   return (
     <>
       <div className="fundingSectionOne rowreverse">
         <div className="fundingOneMedia alignend">
-          <img src="../../media/client.jpeg" alt="Image" />
+          <img src={client} alt="Image" />
         </div>
         <div className="fundingOneContent fw500">
           <h3>Our Clients</h3>
@@ -29,14 +38,14 @@ const WhoWeServe = () => {
         <div className="bLoan textaligncenter">
           <div className="bLoanMedia">
             <div className="bLoanImg">
-              <img src="../media/client1.jpeg" alt="Image" />
-              <img src="../media/client2.jpeg" alt="Image" />
-              <img src="../media/client3.jpeg" alt="Image" />
-              <img src="../media/buisness2.jpeg" alt="Image" />
-              <img src="../media/client4.jpeg" alt="Image" />
-              <img src="../media/client5.jpeg" alt="Image" />
-              <img src="../media/client6.jpeg" alt="Image" />
-              <img src="../media/client7.jpeg" alt="Image" />
+              <img src={client1} alt="Image" />
+              <img src={client2} alt="Image" />
+              <img src={client3} alt="Image" />
+              <img src={clent8} alt="Image" />
+              <img src={client4} alt="Image" />
+              <img src={client5} alt="Image" />
+              <img src={client6} alt="Image" />
+              <img src={client7} alt="Image" />
             </div>
           </div>
           <div

@@ -1,4 +1,10 @@
 import "./home.css";
+import bm1 from "../../assets/buisness1.jpeg";
+import bm2 from "../../assets/buisness2.jpeg";
+import bm3 from "../../assets/buisness3.jpeg";
+import bm4 from "../../assets/buisness4.jpeg";
+import bm5 from "../../assets/buisness5.jpeg";
+import bm6 from "../../assets/buisness6.jpeg";
 const Home = () => {
   return (
     <div className="fundingHome">
@@ -80,12 +86,12 @@ const Home = () => {
         <div className="bLoan">
           <div className="bLoanMedia">
             <div className="bLoanImg">
-              <img src="../media/buisness1.jpeg" alt="Image" />
-              <img src="../media/buisness2.jpeg" alt="Image" />
-              <img src="../media/buisness3.jpeg" alt="Image" />
-              <img src="../media/buisness4.jpeg" alt="Image" />
-              <img src="../media/buisness5.jpeg" alt="Image" />
-              <img src="../media/buisness6.jpeg" alt="Image" />
+              <img src={bm1} alt="Image" />
+              <img src={bm2} alt="Image" />
+              <img src={bm3} alt="Image" />
+              <img src={bm4} alt="Image" />
+              <img src={bm5} alt="Image" />
+              <img src={bm6} alt="Image" />
             </div>
           </div>
           <div className="bLoanContent">

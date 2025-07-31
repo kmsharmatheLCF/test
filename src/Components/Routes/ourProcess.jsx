@@ -1,11 +1,16 @@
 import "./ourProcess.css";
 import "./whoWeServe.css";
+import ourprocess from "../../assets/ourprocess.jpg";
+import set1 from "../../assets/step1.jpeg";
+import set2 from "../../assets/step2.jpeg";
+import set3 from "../../assets/step3.jpeg";
+import set4 from "../../assets/step4.jpeg";
 const OurProcess = () => {
   return (
     <div>
       <div className="fundingSectionOne rowreverse">
         <div className="fundingOneMedia aligncenter">
-          <img src="../../media/ourProcess.jpg" alt="Image" />
+          <img src={ourprocess} alt="Image" />
         </div>
         <div className="fundingOneContent">
           <h3>Our Process</h3>
@@ -26,7 +31,7 @@ const OurProcess = () => {
       <div className="processStep">
         <div className="stepWrapper">
           <div className="stepImg">
-            <img src="../../media/step1.jpeg" alt="Image" />
+            <img src={set1} alt="Image" />
             <p>STEP 1</p>
           </div>
           <div className="stepContent">
@@ -39,7 +44,7 @@ const OurProcess = () => {
         </div>
         <div className="stepWrapper">
           <div className="stepImg">
-            <img src="../../media/step2.jpeg" alt="Image" />
+            <img src={set2} alt="Image" />
             <p>STEP 2</p>
           </div>
           <div className="stepContent">
@@ -52,7 +57,7 @@ const OurProcess = () => {
         </div>
         <div className="stepWrapper">
           <div className="stepImg">
-            <img src="../../media/step3.jpeg" alt="Image" />
+            <img src={set3} alt="Image" />
             <p>STEP 3</p>
           </div>
           <div className="stepContent">
@@ -65,7 +70,7 @@ const OurProcess = () => {
         </div>
         <div className="stepWrapper">
           <div className="stepImg">
-            <img src="../../media/step4.jpeg" alt="Image" />
+          <img src={set4} alt="Image" />
             <p>STEP 4</p>
           </div>
           <div className="stepContent">
