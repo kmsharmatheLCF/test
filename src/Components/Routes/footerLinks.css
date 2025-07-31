@@ -1,0 +1,38 @@
+.legalInformation {
+  width: 70%;
+  margin: 0 auto;
+  padding: 4rem 0;
+}
+.legalInformation > h1 {
+  color: #09ac4a;
+  padding-top: 2rem;
+  font-weight: 500;
+}
+.legalInformation > p {
+  font-size: 1rem;
+  color: #040404;
+  padding-top: 2rem;
+  font-weight: 500;
+}
+.infoPart {
+  padding-top: 2rem;
+}
+.infoPart > h3 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.infoPart > p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.infoPart > ul {
+  font-size: 1rem;
+  padding-left: 2rem;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 480px) {
+  .legalInformation {
+    width: 90%;
+  }
+}

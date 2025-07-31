@@ -1,0 +1,36 @@
+.alignend {
+  text-align: end;
+}
+.alignend > img {
+  max-width: 90%;
+}
+.fw500 > p {
+  font-weight: 500;
+}
+.weServe {
+  background-color: #e3e3e3;
+  border-top: 3px solid #25408f;
+  border-bottom: 3px solid #25408f;
+}
+.textaligncenter {
+  align-items: center;
+}
+
+@media only screen and (max-width: 480px) {
+  .alignend > img {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 580px) {
+  .rowreverse {
+    flex-direction: column;
+  }
+  .alignend > img {
+    max-width: 100%;
+  }
+  .aligncenter > img {
+    padding: 0;
+    object-position: center;
+  }
+}

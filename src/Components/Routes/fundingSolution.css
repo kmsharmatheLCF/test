@@ -1,0 +1,180 @@
+.fundingSectionOne {
+  display: flex;
+  align-items: center;
+}
+
+.fundingOneMedia {
+  width: 50%;
+  padding: 0 0 0 0.4rem;
+}
+
+.fundingOneMedia > img {
+  max-width: 100%;
+}
+
+.fundingOneContent {
+  width: 50%;
+  padding: 5rem 4rem;
+  text-align: center;
+}
+
+.fundingOneContent > h3 {
+  color: #09ac4a;
+  font-size: 2.6rem;
+  font-weight: 500;
+  text-align: start;
+  line-height: 1.2;
+}
+
+.fundingOneContent > h5 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-align: start;
+}
+
+.fundingOneContent > p {
+  text-align: start;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.fundingSectionTwo {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  background-color: #e3e3e3;
+  align-items: center;
+}
+
+.fundingTwoContent {
+  width: 55%;
+  padding: 2rem 0 0 4rem;
+}
+
+.fundingTwoContent > h2 {
+  color: #25498f;
+  font-weight: 500;
+}
+
+.fundingTwoMedia {
+  width: 40%;
+}
+
+.fundingTwoMedia > img {
+  max-width: 100%;
+  padding: 3rem 2rem;
+}
+
+.twoContent {
+  padding: 1rem 0;
+}
+
+.twoContent > h4 {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.twoContent > p {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .fundingSectionOne {
+    flex-direction: column;
+  }
+
+  .fundingOneMedia {
+    width: 100%;
+    padding: 0;
+  }
+
+  .fundingOneContent {
+    width: 100%;
+    padding: 1rem 1rem;
+  }
+
+  .fundingSectionTwo {
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+
+  .fundingTwoMedia {
+    width: 100%;
+  }
+
+  .fundingTwoMedia > img {
+    padding: 0;
+  }
+
+  .fundingTwoContent {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .fundingOneContent > h3 {
+    font-size: 2rem;
+  }
+
+  .fundingOneContent > h5 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .fundingTwoContent {
+    padding: 2rem 0 2rem 2rem;
+  }
+
+  .fundingTwoMedia > img {
+    padding: 0;
+  }
+}
+
+@media (min-width: 850px) and (max-width: 1100px) {
+  .fundingContent {
+    width: 80%;
+  }
+
+  .fundingOneMedia {
+    width: 40%;
+  }
+
+  .fundingOneContent {
+    width: 60%;
+    padding: 2rem 2rem;
+  }
+
+  .processStep {
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 580px) {
+  .fundingSectionOne {
+    flex-direction: column;
+  }
+  .fundingOneMedia {
+    width: 100%;
+    padding: 0;
+  }
+  .fundingOneMedia > img {
+    max-width: 100%;
+    height: 30vh;
+    width: 100vw;
+    object-fit: cover;
+    object-position: top;
+  }
+  .fundingOneContent {
+    padding: 2rem 2rem;
+    width: 100%;
+  }
+  .fundingOneContent > p {
+    padding-top: 1rem;
+  }
+  .upperFooter > h1 {
+    padding: 0 1rem;
+  }
+}

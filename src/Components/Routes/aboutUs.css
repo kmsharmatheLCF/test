@@ -1,0 +1,44 @@
+.aboutContent {
+  text-align: start;
+}
+.aboutContent > h3 {
+  color: #09ac4a;
+}
+.aboutContent > ul {
+  padding: 1rem 2rem;
+}
+.width40 {
+  width: 40%;
+}
+.width60 {
+  width: 60%;
+}
+.padding10 {
+  padding: 1rem 0;
+}
+@media only screen and (max-width: 480px) {
+  .width40 {
+    width: 100%;
+  }
+  .width60 {
+    width: 100%;
+  }
+  .legalInformation {
+    width: 90%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 580px) {
+  .width40 {
+    width: 100%;
+  }
+  .padding10 {
+    padding: 0;
+  }
+  .width40 > img {
+    object-position: center;
+  }
+  .width60 {
+    width: 90%;
+  }
+}
